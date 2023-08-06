@@ -1,0 +1,42 @@
+* {
+    size: 62.5%;
+    margin: 0;
+    padding: 0;
+    color: blue;
+}
+
+nav {
+    width: 100vw;
+    max-width: 100%;
+    height: 25vh;
+    background: beige;
+    font-size: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+#logo {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+}
+
+#login {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+}

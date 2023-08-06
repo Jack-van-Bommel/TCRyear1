@@ -1,0 +1,25 @@
+/* General settings */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* main body */
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #2c2c2c;
+    align-items: center;
+}
+h1 {
+    margin-top: 2vh;
+    color: #ededed;
+    margin-bottom: 2vh;
+}
+canvas {
+    background-color:#ffffff;
+    margin-bottom: 5vh;
+    border: #ededed solid 4px;
+}

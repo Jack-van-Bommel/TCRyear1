@@ -1,0 +1,218 @@
+/* standard css -> Jack */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Navbar css -> Jack */
+.nav_container {
+    background-color: #DF0000;
+    min-height: 15vh;
+    position: sticky;
+    top: 0;
+}
+
+/* IMG CSS  -> Jack */
+#IMGlogo {
+    position: absolute;
+    width: 12vw;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 50px;
+    margin-left: 0.5vw;
+    margin-top: 3vh;
+}
+.nav_imgcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+}
+#IMGcart {
+    background-color: white;
+    border-radius: 50px;
+    border: solid white 2px;
+    width: 5vw;
+}
+#IMGprofilepic {
+    border-radius: 50px;
+    border: solid white 2px;
+    width: 5vw;
+}
+
+/* General CSS  -> Jack */
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style-type: none;
+}
+
+/* Upper side navbar  -> Jack */
+.list_boven_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.list_boven {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 13vw;
+    z-index: 5;
+}
+.list_boven a {
+    color: white;
+    text-decoration: underline;
+}
+.list_boven li {
+    margin-top: 1.5vh;
+}
+
+/* Lower side navbar  -> Jack */
+.list_onder {
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    z-index: 5;
+}
+.nav_onder {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    margin-top: 2.5vh;
+    width: 100%;
+    justify-content: space-around;
+}
+.nav_onder a{
+    color: white;
+    font-size: 30px;
+}
+#searchbar {
+    height: 6vh;
+    width: 15vw;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 0.4vh;
+    width: 30vw;
+    position: relative;
+}
+
+/* Categories dropdown shit  -> Jack */
+.categorie_dropdown_c {
+    border: solid #DD4040 3px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+.categorie_dropdown_c a {
+    color: black;
+    font-size: 28px;
+}
+.categorie_content_c {
+    display: none;
+}
+.categorie_content_c a {
+    color: black;
+    text-align: center;
+    background-color: white;
+    z-index: 10;
+    border-bottom: solid #DD4040 2px;
+    border-left: solid #DD4040 2px;
+    border-right: solid #DD4040 2px;
+    font-weight: normal;
+}
+.categorie_btn_c {
+    display: flex;
+    padding: 0.5rem;
+}
+.a_btn_1 {
+    border-top: solid #DD4040 1px;
+}
+.a_btn_4 {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.categorie_dropdown_c:hover .categorie_content_c {
+    display: flex;
+    flex-direction: column;
+}
+#dropdown_bars1 {
+    cursor: inherit;
+    width: 1.5vw;
+    transform: rotate(0deg);
+    fill: currentcolor;
+    color: black;
+}
+
+/* Personeel opties dropdown settings -> Jack */
+.categorie_dropdown_p {
+    border: solid #DD4040 3px;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    width: 16.9rem;
+}
+.categorie_dropdown_p a {
+    color: black;
+    font-size: 28px;
+}
+.categorie_content_p {
+    display: none;
+}
+.categorie_content_p a {
+    color: black;
+    text-align: center;
+    background-color: white;
+    z-index: 10;
+    border-bottom: solid #DD4040 2px;
+    border-left: solid #DD4040 2px;
+    border-right: solid #DD4040 2px;
+    font-weight: normal;
+}
+.categorie_btn_p {
+    display: flex;
+    padding: 0.5rem;
+}
+.a_btn_1 {
+    border-top: solid #DD4040 1px;
+}
+.a_btn_4 {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.categorie_dropdown_p:hover .categorie_content_p {
+    display: flex;
+    flex-direction: column;
+}
+#dropdown_bars2 {
+    cursor: inherit;
+    width: 1.5vw;
+    transform: rotate(0deg);
+    fill: currentcolor;
+    color: black;
+}
+
+/* Footer CSS  -> Jack */
+footer {
+    display: flex;
+    background-color: #DF0000;
+    border-top: solid #DD4040 3px;
+    height: 3.7vh;
+    justify-content: center;
+    max-width: 100%;
+}
+footer p {
+    color: white;
+}

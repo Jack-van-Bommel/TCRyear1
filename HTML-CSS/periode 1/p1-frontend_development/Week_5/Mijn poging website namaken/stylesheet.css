@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow:400,500,700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: barlow, sans-serif;
+    color: white;
+}
+
+
+nav {
+    background-color: #006445;
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    height: 12vh;
+}
+nav img {
+    height: 12vh;
+    margin-left: 3rem;
+    background: white;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav a {
+    list-style-type: none;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+}
+.nav_links {
+    padding-left: 2rem;
+    display: flex;
+    height: 12vh;
+    width: 100vw;
+    justify-content: flex-start;
+}
+.nav_rechts {
+    flex-wrap: nowrap;
+    position: absolute;
+    display: flex;
+    width: 25vw;
+    max-width: 100%;
+    height: 12vh;
+    margin-left: 70vw;
+    padding-right: 2rem;
+    justify-content: flex-end;
+    background-color: #005c40;
+}
+.aanmeld_knop {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #005c40;
+    background-color: #dbff4a;
+    border: transparent;
+    border-radius: 1rem;
+    width: 12.5vw;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gedeelte_1 {
+    display: block;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    background-color: #004630;
+    color: white;
+
+}
+.title_gedeelte_1 {
+    font-weight: bold;
+    font-size: 18rem;
+    padding-top: 15rem;
+    padding-left: 7rem;
+}
+
+
+.footer_lists {
+    background-color: #006445;
+    display: flex;
+    font-size: 10rem;
+    height: 12vh;
+    width: 100vw;
+    max-width: 100%;
+    align-items: center;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+footer a {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+}
+.footer_image {
+    height: 12vh;
+    width: auto;
+    background-color: white;
+    margin-left: 3rem;
+}
+.important {
+    justify-content: flex-start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.socials { 
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    justify-content: flex-end;
+}

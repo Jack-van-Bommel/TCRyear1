@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: black;
+  color: white;
+}
+body {
+  font-family: "Goldman", cursive;
+}
+
+
+img {
+  background-color: transparent;
+}
+
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+}
+
+
+nav {
+  top: 0;
+  position: sticky;
+  margin: 0;
+  display: flex;
+  size: 100%;
+  width: 100vw;
+  max-width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  margin: 0;
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  margin: 0;
+  width: 5vw;
+}
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 9.55vw;
+  z-index: 5;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+}
+.dropdown_content a {
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: white;
+}
+.dropdown:hover .dropdown_content{
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+
+.Title {
+  background-image: url("/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+
+  color: white;
+  text-align: center;
+  padding-top: 50vh;
+  font-size: 5rem;
+}
+
+.lists {
+  padding-top: 35vh;
+  font-size: 2.5rem;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.tekst {  
+  list-style-type: decimal;
+  list-style-position: inside;
+  font-family: Verdana;
+}
+.tekst2 {
+  list-style-position: inside;
+  list-style-type: circle;
+  font-family: Verdana;
+}
+
+
+article {
+  font-size: 2.5rem;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+}
+
+img {
+  background-color: transparent;
+}
+
+.image_left {
+  float: left;
+}
+.image_rechts {
+  float: right;
+}
+
+
+
+footer {
+  background-color: #00a8c7;
+  text-align: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 7rem;
+  font-size: 3rem;
+  padding: 1.75rem;
+}

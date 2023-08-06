@@ -1,0 +1,832 @@
+/* General settings -> Jack */
+* {
+    margin: 0;
+    padding: 0;
+    size: 0;
+}
+
+/* Homepage CCS code -> Jack */
+/* Upper side of homepage -> Jack */
+.home_upper {
+    display: flex;
+    height: 40.5vh;
+}
+.home_uppercrap {
+    margin-left: 35vw;
+    text-align: center;
+    margin-top: 5vh;
+}
+.home_uppercrap {
+    font-size: 40px;
+}
+.home_uppercrap p {
+    margin-top: 3vh;
+}
+/* Lower side of homepage -> Jack */
+.home_lower {
+    height: 40.5vh;
+    display: flex;
+    background-color: #DF0000;
+    color: white;
+}
+.home_lowercrap {
+    margin-left: 5vw;
+    text-align: center;
+    margin-top: 3vh;
+    max-width: 60vw;
+    font-size: 20px;
+}
+.home_lowercrap p {
+    margin-top: 3vh;
+}
+.home_links {
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 2vh;
+    width: 13vw;
+    margin-left: 23vw;
+}
+/* Home Images CSS -> Jack */
+#home_IMGlogo {
+    position: absolute;
+    width: 25vw;
+    background-color: white;
+    border: 1px solid #DF0000;
+    border-radius: 50px;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    z-index: 5;
+}
+#home_IMGproduct {
+    position: absolute;
+    width: 20vw;
+    height: 34vh;
+    background-color: white;
+    border: 1px solid #DF0000;
+    border-radius: 50px;
+    margin-left: 67vw;
+    margin-top: 2.3vh;
+}
+
+/* Overbedrijf tussen pagina CSS -> Jack */
+#overons_main {
+    min-height: 75.8vh;
+}
+#overbedrijf_header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 5vh;
+    text-decoration: underline;
+}
+.overons_list {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10vh;
+    font-size: 25px;
+}
+.overons_list a {
+    font-weight: bold;
+    color: white;
+    background-color: #DF0000;
+    padding: 2px;
+    border-radius: 5px;
+}
+.overons_list p {
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+
+/* Eco vriendelijkheid -> Jack */
+#eco_main {
+    min-height: 0;
+}
+#eco_header {
+    display: flex;
+    width: 100vw;
+    height: 35vh;
+    background-image: url("./IMAGES/treees.jpg");
+    border-bottom: solid 5px #DD4040;
+}
+#eco_h1 {
+    display: flex;
+    color: white;
+    font-style: italic;
+    width: 100vw;
+    height: 25vh;
+    justify-content: center;
+    margin-top: 12vh;
+}
+#eco_h2 {
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    margin-top: 1vh;
+    justify-content: center;
+    font-size: 35px;
+}
+#eco_betterway {
+    display: flex;
+    width: 45vw;
+    height: 36.2vh;
+    margin-left: 7vw;
+    margin-top: 3vh;
+    font-size: 19px;
+}
+#eco_IMGbetterway {
+    display: flex;
+    position: absolute;
+    height: 20vh;
+    margin-left: 60vw;
+    margin-top: 3vh;
+}
+
+/* Medewerkers CSS -> Amin */
+#container {
+    display: flex;
+    text-align: center;
+    height: 70px;
+    margin: 30px;
+    background: #fff;
+}
+.Medewerker_h1{
+display: flex;
+width: 90vw;
+justify-content: center;
+margin-top: 7vw;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.medewerker{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 500px;
+    flex-direction: row;
+    width: 25vw;
+    height: 40vh;
+}
+
+/* Klachten tussen pagina CSS -> Jack */
+#klachtpage_main {
+    min-height: 75.8vh;
+}
+#klachtpage_header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    text-decoration: underline;
+}
+#klachtpage_list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#klachtpage_list a {
+    font-weight: bold;
+    color: white;
+    background-color: #DF0000;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 40px;
+}
+#klachtpage_list li {
+    margin-bottom: 5vh;
+}
+
+/*Retour policy codes -> Dylan */
+#RP_main {
+    margin-top: 20px;
+    margin-left:30px;
+    min-height:  78.6vh;
+}
+
+.RP_header{
+    display:flex;
+    margin-right:30px;
+    flex-direction: row;
+
+}
+.RPheader_1{
+    margin-right:40px;
+    background-color: red;
+    color:white;
+    border: black solid 5px;
+}
+.RPheader_2{
+    background-color: #DD4040;
+    color:white;
+    border: black solid 5px;
+}
+
+.RP_section1 {
+    color: rgb(0, 0, 0)0, 56, 56;
+    display:flex;
+    margin-right:30px;
+    margin-top: 30px;
+    justify-content: space-between;    
+}
+
+.RPkop_1{
+    color: white;
+    background-color:#DD4040;
+    border: #DD4040 solid 5px;
+}
+
+.RPkop_2{
+    color: white;
+    background-color:#DD4040;
+    border: #DD4040 solid 5px;
+}
+
+.RPkop_3{
+    color: white;
+    background-color:#DD4040;
+    border: #DD4040 solid 5px;
+}
+
+.RP-rows{
+    margin-right:30px;
+}
+.RP-row_1{
+    color: rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(207, 203, 202);
+    line-height: 75px;
+}
+
+.RP-row_2{
+    color: rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(207, 203, 202);
+    line-height: 75px;
+}
+
+.RP-row_3{
+    color: rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(207, 203, 202);
+    line-height: 75px;
+}
+
+.RP-row_4{
+    color: rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(207, 203, 202);
+    line-height: 75px;
+}
+
+
+.RPdropdown_1-content {
+    display: none;
+    min-width: 160px;
+    box-shadow:0px 8px 16px 0px rgba (0,0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  .RPdropdown_2 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_2-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+  .RPdropdown_3 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_3-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.RPdropdown_4 {
+    position: relative;
+    display: inline-block;
+}
+
+.RPdropdown_4-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.RPdropdown_5 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_5-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.RPdropdown_6 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_6-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.RPdropdown_7 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_7-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.RPdropdown_8 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_8-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.RPdropdown_9 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_9-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.RPdropdown_10 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_10-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.RPdropdown_11 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_11-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.RPdropdown_12 {
+    position: relative;
+    display: inline-block;
+}
+.RPdropdown_12-content {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+/* Geschiedenis en doelstellingen van bedrijf -> Dylan */
+
+.geschiedenis-main{
+    margin:20px;
+    min-height: 78.5%;
+}
+.Geschiedenis-doelstellingen-title{
+margin:20px;
+}
+
+
+/* Product klachten CSS code -> Jack */
+.productklacht_form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 37.5%;
+    text-align: center;
+}
+.productklacht_header {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#productklacht_submit {
+    background-color: #DD4040;
+    color: white;
+    height: 2rem;
+    font-size: 1.5rem;
+    width: 50%;
+    margin-left: 25%;
+    border: black solid 2px;
+    margin-bottom: 2rem;
+}
+.productklacht_text {
+    height: 3rem;
+}
+.productklacht_gender {
+    display: flex;
+    flex-direction: row;
+}
+
+#productklacht_action_h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.productklacht_action_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.productklacht_action_container table {
+    border: black 1px solid;
+    min-height: 20rem;
+    margin-bottom: 1.5rem;
+}
+.productklacht_action_container td {
+    height: 2.5rem;
+    text-align: left;
+    width: 20rem;
+    word-wrap: break-word;
+    max-width: 80rem;
+}
+.productklacht_action_container th {
+    text-align: left;
+    width: 10rem;
+}
+#productklacht_action_main {
+    min-height: 78.7vh;
+}
+#productklachtaction_a_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#productklachtaction_a {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #DD4040;
+    border: black 1px solid;
+    color: white;
+}
+
+/* Landen overzicht CSS code -> Jack */
+#landenoverzicht_h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.landentable_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#landentable_body {
+    width: 50%;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 25%;
+    margin-bottom: 1.5rem;
+
+    border: black 1px solid;
+}
+#landenoverzicht_a_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#landenoverzicht_a {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #DD4040;
+    border: black 1px solid;
+    color: white;
+}
+#landenoverzicht_main {
+    min-height: 78.7vh;
+}
+
+/* website klachten pagina -> Dylan */
+.Websiteklachten-main {
+    min-height: 81vh;
+    margin-left:30px;
+}
+.Klachtenform-h1{
+background-color: white;
+}
+.websiteklacht-naam{
+    margin-right: 5px;
+    margin-top: 80px;
+}
+.websiteklacht-telefoon{
+    margin-right: 5px;
+}
+
+.websiteklacht-postcode{
+    margin-right: 5px;
+}
+
+.websiteklacht-gender{
+    margin-right: 5px;
+}
+
+.websiteklacht-klacht{
+    margin-right: 5px;
+}
+
+.websiteklacht-wzg{
+    margin-right: 5px;
+}
+
+/* Webshop CSS code -> Jack */
+.webshop_main {
+    min-height: 78.7vh;
+}
+#webshop_h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 25px;
+}
+
+.productentable_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#productentable_body {
+    max-width: 100vw;
+    display: flex;
+    background-color: #DD4040;
+    color: white;
+    border-collapse: collapse;
+    border: black solid 1px;
+}
+#productentable_body th {
+    padding: 0.7rem;
+    border: black solid 1px;
+    font-size: 25px;
+    background-color: gray;
+}
+#productentable_body td {
+    font-size: 20px;
+    border: black solid 1px;
+    padding: 0.5rem;
+}
+
+/* Bestellingen CSS code -> Jack */
+#bestellingen_main {
+    min-height: 78.6vh;
+}
+.bestelling_main_h1 {
+    width: 100vw;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#bestelling_h1 {
+    text-align: center;
+}
+.bestelling_table_container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.bestelling_table {
+    border: black solid 1px;
+    border-collapse: collapse;
+    max-width: 80%;
+}
+.bestelling_table th {
+    border: black solid 1px;
+    background-color: gray;
+    color: white;
+    padding: 1rem;
+}
+.bestelling_table td {
+    border: black solid 1px;
+    padding: 0.5rem;
+}
+
+/*Categorie*/
+.Categorie_Main{
+    display: flex;
+    justify-content: center;
+}
+
+/*leveranciers CSS code -> Dylan */
+
+#leveranciers-main {
+    min-height: 79.7vh;
+}
+
+#leveranciers-h1{
+    display:flex;
+    color:black;
+ justify-content: center;
+}
+.leveranciers-table-div {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    text-size-adjust: 80px;
+}
+
+.leveranciers-table{
+    max-width: 100vw;
+    display: flex;
+    background-color: #DD4040;
+    color: white;
+    border-collapse: collapse;
+    border: black solid 1px;
+}
+
+.leveranciers-main-h1 {
+    width: 80vw;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/*producten CSS code -> Dylan */
+
+#producten-main {
+    width: 100vw;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.producten_table_div {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+}
+
+.producten_table{
+    border:red solid 5px;
+    max-width:80%;
+    margin-bottom: 80px;
+}
+
+.producten-main-h1 {
+    width: 80vw;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#producten-h1 {
+    text-align: center;
+}
+
+/* Categorie CRUD CSS code -> Jack */
+.cat_main {
+    min-height: 80.8vh;
+}
+.cat_h1_container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+#cat_h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cat_table_container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.cat_table {
+    width: 50%;
+    border: black solid 1px;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+.cat_table th {
+    background-color: gray;
+    border: black solid 1px;
+    border-collapse: collapse;
+    color: white;
+}
+.cat_table td {
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+.cat_table_btn {
+    width: 100%;
+}
+.cat_table td {
+    background-color: #DD4040;
+    color: white;
+}
+.cat_toevoeg_btn_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#cat_toevoeg_btn {
+    font-size: 20px;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Categorieën toevoegen CSS code -> Jack */
+.cat_toe_main {
+    height: 80.9vh;
+}
+.cat_toe_cont {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#cat_toe_h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#cat_toe_form_cont {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Categorie Wijzig CSS code -> Jack */
+.cat_wzg_h1_cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cat_wzg_form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.cat_wzg_main {
+    height: 78.6vh;
+}
+#country_toev_goback {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.16, rgb(207, 207, 207)), color-stop(0.79, rgb(252, 252, 252)));
+    background-image: -moz-linear-gradient(center bottom, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%);
+    background-image: linear-gradient(to top, rgb(207, 207, 207) 16%, rgb(252, 252, 252) 79%); 
+    padding: 3px;
+    border: 1px solid #000;
+    color: black;
+    text-decoration: none;
+}

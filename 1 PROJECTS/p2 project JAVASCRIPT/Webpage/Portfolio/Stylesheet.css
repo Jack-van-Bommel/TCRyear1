@@ -1,0 +1,71 @@
+/* Readies the main block for the rest of the page */
+body
+{
+    /* overflow-x: hidden; */
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+main
+{
+    background-color: #2c2c2c;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+/* Sets up some flexbox positioning for the text and image */
+#PictureSplitDiv
+{
+    display: flex;
+    flex-direction: row;
+    /* height: 80vh; */
+    width: 60vw;
+    justify-content: space-around;
+} 
+#TextDiv
+{
+    width: 35vw;
+    background-color: #343434;
+    border: 2px solid #343434;
+    border-radius: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+/* Text & Image Modifiers */
+.StudentFoto
+{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    height: 90vh;
+    border: 5px dashed #a3a3a3;
+    border-radius: 25px;
+}
+h1
+{
+ margin: 12px;
+ color: #ededed;
+}
+.SubtitlePortfolio
+{
+    margin: 24px;
+    color: #a3a3a3;
+}
+.ParagraphPortfolio
+{
+    margin: 8px;
+    margin-left: 24px;
+    color: #a3a3a3;
+}
+#GianFoto{
+    width: 300px;
+    height: 300px;
+}
+#SofieFoto
+{
+    height: 55vh;
+}
+#Jackfoto {
+    height: 60vh;
+}

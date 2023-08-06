@@ -1,0 +1,1234 @@
+* {
+    size: 62.5%;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.nav_container {
+    width: 100vw;
+    max-width: 100%;
+    height: 9rem;
+    background-color: #006445;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+#title_nav {
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 0px 2px 2.5px black;
+}
+.list_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 125%;
+    list-style-type: none;
+    padding-top: 1rem;
+}
+.nav_a {
+    display: flex;
+    background-color: #177d5e;
+
+    text-decoration: none;
+    padding: 0.75rem;
+    border-radius: 9px;
+    box-shadow: 0px 2.5px 5px black;
+}
+a {
+    text-decoration: none;
+}
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 5;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+}
+.dropdown_content a {
+    color: white;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   background-color: #006445;
+}
+.dropdown_btn {
+    display: flex;
+    background-color: #177d5e;
+    text-decoration: none;;
+    padding: 0.75rem;
+    border-radius: 9px;
+    box-shadow: 0px 2.5px 5px black;
+}
+.a_btn {
+    display: flex;
+}
+.dropdown:hover .dropdown_content{
+    display: flex;
+    flex-direction: column;
+}
+.a_btn:hover {
+    background-color: #177d5e;
+}
+
+
+
+
+main {
+    width: 100vw;
+    max-width: 100%;
+    background-color: #004630;
+}
+
+
+
+
+.home_main_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#home_title_1 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 300%;
+    justify-content: center;
+}
+#home_title_2 {
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 300%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.home_main_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 65%;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+#begeleiding_link_txt {
+    display: flex;
+    width: 35%;
+    height: fit-content;
+    margin-top: 2.5%;
+    margin-right: 0;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    font-size: 250%;
+}
+#begeleiding_link_btn {
+    display: flex;
+    background-color: #dbff4a;
+    font-size: 200%;
+    color: #004630;
+    width: fit-content;
+    margin-left: 5%;
+    padding: 0.35% 1%;
+    justify-content: center;
+    border-radius: 9px;
+    box-shadow: 0px 2.5px 5px black;
+}
+#canvas_link_txt {
+    display: flex;
+    width: 60%;
+    height: fit-content;
+    margin-top: 5%;
+    margin-right: 0;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    font-size: 250%;
+}
+#canvas_link_btn {
+    display: flex;
+    background-color: #dbff4a;
+    font-size: 200%;
+    color: #004630;
+    width: fit-content;
+    margin-left: 5%;
+    padding: 0.35% 1%;
+    justify-content: center;
+    border-radius: 9px;
+    box-shadow: 0px 2.5px 5px black;
+}
+#home_img_school {
+    position: absolute;
+    width: 30%;
+    border: 3px solid #dbff4a;
+    margin-left: 66%;
+    margin-top: 2.5%;
+    box-shadow: 0px 2.5px 5px black;
+}
+#home_break {
+    padding-bottom: 4.55%;
+}
+
+
+
+
+.examenplan_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.examenplan_header h2 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.examenplan_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 100;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.examen_sod h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.examen_sod p {
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+ }
+ .examen_sod ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 1%;
+}
+.examen_sod li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+.examen_sod h4 {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+.examen_generiek ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 1%;
+    padding-bottom: 4%;
+}
+.examen_generiek li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+.examen_generiek h4 {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+.examen_generiek h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+
+
+
+
+.ouderavond_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.ouderavond_header h2 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.ouderavond_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 100;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.ouderavond_tabel {
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.ouderavond_main {
+    min-height: 72vh;
+}
+#tabel_title {
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    color: #dbff4a;
+    text-decoration: underline;
+}
+table th {
+    color: #dbff4a;
+}
+.ouderavond_main h3 {
+    display: flex;
+    width: 100%;
+    font-size: 200%;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #dbff4a;
+    justify-content: center;
+    margin-top: 2%;
+}
+#f_name {
+    color: black;
+}
+#l_name {
+    color: black;
+}
+#submit_btn {
+    background-color: #dbff4a;
+    color: #004630;
+    padding: 0.25% 0.5%;
+    font-weight: bold;
+    font-size: 120%;
+    border-radius: 9px;
+    box-shadow: 0px 2.5px 5px black;
+}
+.submit_btn_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+.ouderavond_formulier p {
+    display: flex;
+    font-size: 130%;
+    justify-content: center;
+    font-weight: bold;
+    color: #e33230;
+    text-decoration: underline;
+}
+.ouderavond_formulier h4 {
+    display: flex;
+    font-size: 130%;
+    justify-content: center;
+    text-decoration: underline;
+}
+#f_name_label {
+    display: flex;
+    justify-content: center;
+}
+#f_name {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+#l_name_label {
+    display: flex;
+    justify-content: center;
+}
+#l_name {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+#ll_name_label {
+    display: flex;
+    justify-content: center;
+}
+#ll_name {
+    display: flex;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    color: black;
+}
+.avond_1_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5%;
+}
+.avond_2_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5%;
+}
+.avond_3_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5%;
+}
+.avond_4_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5%;
+}
+
+
+
+
+
+.bsa_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.bsa_header h2 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.bsa_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 65%;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.bsa_intro h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.bsa_intro p {
+    max-width: 80%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+}
+.bsa_uitleg {
+    margin-top: 1%;
+}
+.bsa_uitleg h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.bsa_uitleg p {
+    font-size: 125%;
+    margin-left: 4%;
+    max-width: 80%;
+}
+.bsa_voorwaarden {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 2%;
+}
+.bsa_voorwaarden li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+#bsa_voorwaarden_title {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+.bsa_link {
+    display: flex;
+    width: 60%;
+    height: fit-content;
+    margin-top: 4%;
+    margin-right: 0;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    font-size: 250%;
+}
+.bsa_knoppie {
+    padding-bottom: 3%;
+}
+#bsa_btn {
+    display: flex;
+    background-color: #dbff4a;
+    font-size: 200%;
+    color: #004630;
+    width: fit-content;
+    margin-left: 4%;
+    padding: 0.35% 1%;
+    justify-content: center;
+    border-radius: 9px;
+    box-shadow: 0px 2.5px 5px black;
+}
+
+
+
+
+.eduarte_main_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#eduarte_title_1 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+#eduarte_header_p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 65%;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.rooster_header h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.rooster_header p {
+    max-width: 60%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+}
+.eduarte_list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 1%;
+}
+.eduarte_list li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+#eduarte_list_title {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+#img_eduarte_rooster {
+    display: flex;
+    position: absolute;
+    width: 20%;
+    margin-left: 77%;
+    margin-top: 1%;
+    border: 3px solid #dbff4a;
+}
+.eduarte_resultaten {
+    margin-top: 1%;
+}
+.eduarte_resultaten h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 10%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.eduarte_resultaten p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+#br {
+    color: #004630;
+}
+#img_eduarte_resultaten {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+}
+.eduarte_aanwezigheid {
+    padding-bottom: 2%;
+    width: 50%;
+    margin-left: 4%;
+}
+.eduarte_aanwezigheid h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.eduarte_aanwezigheid p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+
+
+
+
+.overjack_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#overjack_title {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.overjack_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 100;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+#img_overjack_mason {
+    display: flex;
+    position: absolute;
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 1%;
+    border: 3px solid #dbff4a;
+}
+.overjack_wie {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.overjack_wie h3 {
+    display: flex;
+    text-align: center;
+    max-width: 23%;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+    margin-left: 38.5%;
+    margin-right: 38.5%;
+}
+.overjack_wie p {
+    text-align: center;
+    max-width: 100%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+ }
+.overjack_hobbies h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overjack_hobbies li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+.overjack_hobbies h4 {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+#img_overjack_toets {
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 35%;
+    object-fit: cover;
+    margin-left: 4%;
+    margin-top: 5%;
+    border: 3px solid #dbff4a;
+}
+.overjack_opleiding h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 70%;
+    margin-top: 6%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overjack_opleiding p {
+    font-size: 125%;
+    margin-left: 30%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+    text-align: right
+}
+.overjack_idealerooster h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 8%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overjack_idealerooster p {
+    font-size: 125%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+.overjack_bijzonderheden h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 5%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overjack_bijzonderheden h4 {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+.overjack_bijzonderheden li {
+    font-size: 125%;
+    margin-left: 5%;
+    max-width: 60%;
+    margin-bottom: 0.5%;
+}
+.overjack_bijzonderheden {
+    padding-bottom: 5%;
+}
+#img_overjack_groep {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    object-fit: contain;
+    margin-left: 70%;
+    margin-top: 5%;
+    border: 3px solid #dbff4a;
+}
+
+
+
+
+.canvas_main_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#canvas_title_1 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+#canvas_header_p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 65%;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.canvas_header h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.canvas_header p {
+    max-width: 60%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+}
+.canvas_list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 1%;
+}
+.canvas_list li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+#canvas_list_title {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+
+.canvas_dashboard {
+    margin-top: 1%;
+}
+.canvas_dashboard h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 10%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.canvas_dashboard p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+#br {
+    color: #004630;
+}
+#img_canvas_dashboard {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+}
+.canvas_kalender  {
+    padding-bottom: 2%;
+    width: 50%;
+    margin-left: 4%;
+}
+.canvas_kalender h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.canvas_kalender p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+#img_canvas_kalender {
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+}
+
+
+
+
+.opleiding_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.opleiding_header h2 {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.opleiding_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 65%;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.opleiding_intro h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.opleiding_intro p {
+    max-width: 80%;
+    display: flex;
+    font-size: 150%;
+    margin-left: 4%;
+}
+.na_opleiding {
+    margin-top: 1%;
+}
+.na_opleiding h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.na_opleiding p {
+    font-size: 125%;
+    margin-left: 4%;
+    max-width: 80%;
+}
+.opleiding_software {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-top: 2%;
+}
+.opleiding_software li {
+    font-size: 125%;
+    margin-left: 5%;
+}
+#opleiding_software_title {
+    display: flex;
+    font-size: 130%;
+    margin-left: 4%;
+}
+.opleiding_video{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+}
+.opleiding_video p {
+    font-size: 125%;
+    margin-left: 4%;
+    max-width: 80%;
+    color:#dbff4a;
+    font-weight: bolder;
+}
+
+
+
+.overrohan_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#overrohan_title {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.overrohan_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 100;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.overrohan_wie h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overrohan_wie p{
+    font-size: 125%;
+    margin-left: 4%;
+
+}
+.overrohan_hobbies h3{
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overrohan_hobbies ul{
+    font-size: 125%;
+    margin-left: 4%;
+    max-width: 80%;
+}
+.overrohan_hobbies h4{
+    font-size: 125%;
+    margin-left: 4%;  
+}
+.overrohan_opleiding h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overrohan_opleiding p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+.overrohan_rooster h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overrohan_rooster p {
+    font-size: 125%;
+    margin-left: 4%;
+}
+#rohan1img{
+    display: flex;
+    width: 20%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+
+}
+#rohan2img{
+    display: flex;
+    width: 20%;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border: 3px solid #dbff4a;
+}
+.formulier{
+   margin-left: 1.5%;
+
+}
+.formulier h3{
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+
+
+
+
+.overschool_header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbff4a;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#overschool_title {
+    margin-top: 1%;
+    display: flex;
+    color: black;
+    width: 100%;
+    font-size: 200%;
+    justify-content: center;
+    text-decoration: underline;
+}
+.overschool_header p {
+    margin: 1% 0;
+    display: flex;
+    color: #004630;
+    width: 100;
+    font-size: 150%;
+    font-weight: bold;
+    text-shadow: 0px 2.5px 5px #93C837;
+}
+.overschool_opleiding h3 {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+.overschool_opleiding p{
+    font-size: 125%;
+    margin-left: 4%;
+
+}
+.overschool_opleiding ul{
+    font-size: 125%;
+    margin-left: 4%;
+    max-width: 80%;
+}
+.overschool_locaties {
+    padding-bottom: 4%;
+}
+.overschool_locaties h3{
+    font-size: 125%;
+    margin-left: 4%;  
+}
+.overschool_locaties p {
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 4%;
+    text-decoration: underline;
+    margin-bottom: 0.2%;
+    color: #dbff4a;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1.5px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+  }
+
+
+
+
+footer {
+    display: flex;
+    width: 100vw;
+    max-width: 100%;
+    height: 2.5rem;
+    background-color: #006445;
+    justify-content: center;
+    align-items: center;
+}
+.footer_list {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    max-width: 100%;
+    height: 2.5rem;
+    justify-content: space-evenly;
+}
+.footer_a {
+    display: flex;
+    font-size: 150%;
+    padding-top: 0.35rem;
+    text-shadow: 0px 1px black;
+}
+
+.img_footer {
+    display: flex;
+    height: 2.5rem;
+    justify-content: flex-start;
+    background-color: white;
+}

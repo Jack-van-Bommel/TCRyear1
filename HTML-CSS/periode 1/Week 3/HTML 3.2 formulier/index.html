@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet formulier" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht_3.2 formulieren</title>
+</head>
+<body>
+    <header>
+        <img src="./img/Tui logo.jpg" alt="HTML image Tui logo" width="75px" height="75px">
+        <h1>Welkom bij het TUI boekingsformulier</h1>
+    </header>
+    <form>
+        <section class="voor-achter-naam">
+        <h3>Vul hier uw voor- en achternaam in:</h3>
+            <label for="v_naam">Voornaam:</label><br>
+            <input type="text" id="v_naam" name="v_naam" pattern="[A-Za-z]+" placeholder="Vul hier uw voornaam in"><br>
+            <label for="a_naam">Achternaam:</label><br>
+            <input type="text" id="a_naam" name="a_naam" pattern="[A-Za-z]+" placeholder="Vul hier uw achternaam in"><br>
+            <br>
+        </section>
+
+        <section class="Gender">
+            <h3>Vul hier uw geslacht in:</h3>
+            <label for="m_gender">Man</label>
+            <input type="radio" id="m_gender" name="gender" checked><br>
+            <label for="v_gender">Vrouw</label>
+            <input type="radio" id="v_gender" name="gender"><br>
+            <label for="no_gender">Anders</label>
+            <input type="radio" id="no_gender" name="gender"><br>
+        </section>
+
+        <section class="adres">
+            <br>
+            <h3>Vul hier uw adres en BSN in:</h3>
+            <label for="Straatnaam">Straatnaam:</label>
+            <input type="text" id="straatnaam" name="straatnaam" placeholder="Straatnaam">
+            <br>
+            <label for="huisnummer">Huisnummer:</label>
+            <input type="number" id="Huisnummer" name="Huisnummer" placeholder="1, 2, 3, etc.">
+            <label for="toevoeging_huisnummer">Toevoeging huisnummer:</label>
+            <input type="text" id="toevoeging_huisnummer" name="toevoeging_huisnummer" placeholder="a, b, c, etc.">
+            <br>
+            <label for="postcode">Postcode:</label>
+            <input type="text" id="postcode" name="postcode" placeholder="1234AB">
+            <br>
+            <label for="stad">Stad:</label>
+            <input type="text" id="stad" name="stad" placeholder="Naam van uw stad">
+            <br>
+            <label for="land">Land waar u woont:</label>
+            <input type="text" id="land" name="land" placeholder="Land waar uw woont">
+        </section>
+
+        <section class="BSN">
+            <br>
+            <label for="bsn">Vul uw BSN nummer in:</label>
+            <input type="text" id="bsn" name="bsn" placeholder="123456789" minlength="9" maxlength="9" pattern="[0-9]+">
+        </section>
+
+        <section class="vakantieland">
+            <br>
+            <h3>Vul hier de details van uw vakantie in:</h3>
+            <label for="vakantieland">Kies uw vakantieland:</label>
+            <select id="vakantieland" name="vakantieland">
+                <option value="Verenigde Staten">Verenigde Staten</option>
+                <option value="China">China</option>
+                <option value="Engeland">Engeland</option>
+                <option value="Zweden">Zweden</option>
+                <option value="Egypte">Egypte</option>
+            </select>
+        </section>
+
+        <section class="datum_vertrek">
+            <label for="datum_vertrek">Vul uw vertrek datum in:</label>
+            <input type="date" id="datum_vertrek" name="datum_vertrek" min="2022-09-19">
+        </section>
+
+        <section class="datum_terugkomst">
+            <label for="datum_terugkomst">Vul uw datum van terugkomst in:</label>
+            <input type="date" id="datum_terugkomst" name="datum_terugkomst" min="2022-09-20">
+        </section>
+
+        <section class="nr_reisgenoten">
+            <label for="nr_reisgenoten">Vul het aantal reisgenoten in (let op! Maximaal 4.):</label>
+            <input type="number" id="nr_reisgenoten" name="nr_reisgenoten" min="0" max="4" placeholder="0">
+        </section>
+
+        <section class="email">
+            <br>
+            <h3>Maak een account aan om het boeken te voltooien:</h3>
+            <label for="email">Emailadres:</label>
+            <input type="email" id="email" name="email" placeholder="Vul uw emailadres in">
+        </section>
+
+        <section class="wachtwoord">
+            <label for="password">wachtwoord</label>
+            <input type="password" id="password" name="password" placeholder="Bedenk een wachtwoord">
+        </section>
+
+        <section class="Verzendknop">
+            <br>
+            <label for="verzendknop"><strong>Boek nu!</strong></label><br>
+            <input type="submit" id="verzendknop" name="verzendknop">
+        </section>
+    </form>
+</body>
+</html>

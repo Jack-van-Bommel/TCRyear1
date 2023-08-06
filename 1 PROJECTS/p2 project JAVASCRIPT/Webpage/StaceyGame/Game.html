@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="../Navbar-Style.css">
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar_container">
+            <img src="../img/techniek-college-rotterdam.png" alt="TCR_logo" id="img_tcrlogo">
+            <ul class="navbar_list">
+                <li><a id="home_a" href="../Home/index.html">Home</a></li>
+                <li><a id="uitleg_a" href="../Uitleg over games/uitleg.html">Uitleg over de games</a></li>
+                <li><a id="favo_a" href="../favoriete games/favogames.html">Onze favoriete games</a></li>
+                <li class="dropdown">
+                    <a href="#" id="dropdown_btn">Portfolio</a>  
+                    <div class="dropdown_content">
+                        <a class="a_btn" id="gian_btn" href="../Portfolio/Portfolio Gian.html">Gian</a>
+                        <a class="a_btn" id="jack_btn" href="../Portfolio/Portfolio Jack.html">Jack</a>
+                        <a class="a_btn" id="sofie_btn" href="../Portfolio/Portfolio Sofie.html">Sofie</a>
+                        <a class="a_btn" id="stacey_btn" href="../Portfolio/Portfolio Stacey.html">Stacey</a>
+                    </div>   
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+
+        <section id="canv-cont">
+            <canvas id="board"></canvas>
+
+            <div id="controls">
+                <p>W = Up</p>
+                <p>A = Left</p>
+                <p>S = Down</p>
+                <p>D = Right</p>
+                <p>R = Restart</p>
+            </div>
+        
+        </section>
+
+
+    </main>
+    <footer>
+        <p id="footer_txt">Copyright blabla</p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+html {
+    font-family: sans-serif;
+}
+
+header {
+    float: none;
+    width: 100vw;
+    margin: 0;  
+    height: 35vw;
+    background-image: url("img/fifa 23 1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    -webkit-text-stroke: 1.5px black;
+    border-style: groove;
+    border-radius: 25px;
+}
+
+img {
+    width: 50%;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #0000ff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+p {
+    color: #4D4D4D;
+}
+
+.paragraaf_1 {
+    font-size: 25px;
+    color:  white;
+    font-weight: bold;
+}
+
+a {
+    color: #8a2be2;
+    text-decoration: none;
+}
+
+article {
+    border-style: groove;
+    border-radius: 25px;
+    border-left-width: 10px;
+}

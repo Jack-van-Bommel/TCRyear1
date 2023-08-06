@@ -1,0 +1,26 @@
+
+
+#wrapper{
+   margin-left: 15%;
+   margin-right: 15%;
+   width: 1440px;
+   background-color: red;
+}
+
+#top{
+    height: 90px;
+    color: white;
+    background-color: #005c40;
+}
+
+#content{
+    min-height: 600px;
+    color: white;
+    background-color: #004630;
+}
+
+.logo{
+    background-color: white;
+    min-width: 150px;
+    padding: 5px;
+}

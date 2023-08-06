@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow:400,500,700&display=swap);
+
+
+html,body,div{
+    margin: 0;
+    padding: 0;
+    font-family: barlow;
+}
+
+#wrapper{
+   margin: auto;
+   width: 1440px;
+   background-color: red;
+}
+
+.floatLeft{
+    float:left;
+}
+.floatRight{
+    float: right;
+}
+
+#top{
+    height: 90px;
+    color: white;
+    background-color: #005c40;
+}
+.snelmenu{
+    width: 350px;
+}
+
+#content{
+    min-height: 600px;
+    color: white;
+    background-color: #004630;
+}
+
+.logo{
+    background-color: white;
+    min-height: 80px;
+    padding: 5px;
+}
+
+#top ul{
+    padding-top: 35px;
+}
+
+#top ul li{
+    display: inline;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #dbff4a;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight:bold;
+}

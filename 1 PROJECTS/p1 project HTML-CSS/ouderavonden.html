@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouderavond ouderavondplanning pagina</title>
+</head>
+<body>
+  <header class="nav_container">
+    <h1 id="title_nav"><a href="./index.html">Website voor de ouderavond</a></h1>
+    <nav class="list_container">
+        <ul class="list_items">
+            <li class="nav_a"><a href="./over_opleiding.html">Over de opleiding</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown_btn">Software voor leerlingen</a>
+                  <div class="dropdown_content">
+                    <a class="a_btn" href="./canvas.html">Canvas</a>
+                    <a class="a_btn" href="./eduarte.html">EduArte</a>
+                  </div>
+                </li>
+            <li class="nav_a"><a href="./over_school.html">Over de school</a></li>
+            <li class="nav_a"><a href="./examenplan.html">Examenplanning</a></li>
+            <li class="nav_a"><a href="./bsa.html">Bindend Studie Advies</a></li>
+            <li class="nav_a"><a href="./ouderavonden.html">Ouderavondplanning</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown_btn">Over ons</a>
+                  <div class="dropdown_content">
+                    <a class="a_btn" href="./over_jack.html">Over Jack</a>
+                    <a class="a_btn" href="./over_rohan.html">Over Rohan</a>
+                  </div>
+                </li>
+        </ul>
+    </nav>
+</header>
+
+
+    <main class="ouderavond_main">
+      <header class="ouderavond_header">
+        <h2>Overzicht van ouderavonden 2022-2023</h2>
+        <p>Dit schooljaar komen er nog meerdere ouderavonden aan. Dit is een tabel met alle informatie.</p>
+      </header>
+      <h3>Ouderavonden</h3>
+    <section class="ouderavond_tabel">
+      <table>
+        <tr>
+          <th>Maand</th>
+          <th>Dag</th>
+          <th>Tijd</th>
+        </tr>
+        <tr>
+          <td>2 November</td>
+          <td>Woensdag</td>
+          <td>18:30</td>
+        </tr>
+        <tr>
+          <td>18 Januari</td>
+          <td>Woensdag</td>
+          <td>Tijd onbekend</td>
+        </tr>
+        <tr>
+          <td>5 April</td>
+          <td>Woensdag</td>
+          <td>Tijd onbekend</td>
+        </tr>
+        <tr>
+          <td>28 Juni</td>
+          <td>Woensdag</td>
+          <td>Tijd onbekend</td>
+        </tr>
+      </table>
+    </section>
+    <section class="ouderavond_formulier">
+      <header>
+        <h3>Aanmelden voor ouderavond(en):</h3>
+        <p>Let op! Dit formulier werkt niet en is alleen voor dit project gemaakt!</p>
+      </header>
+      <form class="form_container">
+        <label id="f_name_label" for="f_name">Voornaam:</label>
+        <input type="text" id="f_name" placeholder="Voornaam"><br>
+        <label id="l_name_label" for="l_name">Achternaam:</label>
+        <input type="text" id="l_name" placeholder="Achternaam"><br>
+        <label id="ll_name_label" for="ll_name">Voor welke leerling komt u:</label>
+        <input type="text" id="ll_name" placeholder="Leerling naam"><br>
+        <h4>Klik aan welke ouderavonden u kunt bijwonen:</h4>
+        <section class="avond_1_container">
+          <input type="checkbox" id="avond_1">
+          <label id="avond_1_label" for="avond_1">Woensdag 2 november 2022</label><br>
+        </section>
+        <section class="avond_2_container">
+          <input type="checkbox" id="avond_2">
+          <label id="avond_2_label" for="avond_2">Woensdag 18 januari 2023</label><br>
+        </section>
+        <section class="avond_3_container">
+          <input type="checkbox" id="avond_3">
+          <label id="avond_3_label" for="avond_3">Woensdag 5 april 2023</label><br>
+        </section>
+        <section class="avond_4_container">
+          <input type="checkbox" id="avond_4">
+          <label id="avond_4_label" for="avond_4">Woensdag 28 juni 2023</label><br>
+        </section>
+        <section class="submit_btn_container">
+          <input type="submit" id="submit_btn">
+        </section>
+      </form>
+    </section>
+    </main>
+
+
+    <footer>
+        <a href=""><img class="img_footer" src="./img/tcr_logo.png" alt="TCR Logo"></a>
+        <ul class="footer_list">
+            <li class="footer_a"><a href="https://www.techniekcollegerotterdam.nl/" target="_blank">Website van Techniek College</a></li>
+            <li class="footer_a"><a href="https://www.techniekcollegerotterdam.nl/veelgestelde-vragen" target="_blank">Veelgestelde Vragen</a></li>
+            <li class="footer_a"><a href="https://www.youtube.com/channel/UCeniozlKMzqOPrLIP-zRxyg" target="_blank">Youtube kanaal</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

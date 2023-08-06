@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="../Navbar-Style.css">
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar_container">
+            <img src="../img/techniek-college-rotterdam.png" alt="TCR_logo" id="img_tcrlogo">
+            <ul class="navbar_list">
+                <li><a id="home_a" href="../Home/index.html">Home</a></li>
+                <li><a id="uitleg_a" href="../Uitleg over games/uitleg.html">Uitleg over de games</a></li>
+                <li><a id="favo_a" href="../favoriete games/favogames.html">Onze favoriete games</a></li>
+                <li class="dropdown">
+                    <a href="#" id="dropdown_btn">Portfolio</a>  
+                    <div class="dropdown_content">
+                        <a class="a_btn" id="gian_btn" href="../Portfolio/Portfolio Gian.html">Gian</a>
+                        <a class="a_btn" id="jack_btn" href="../Portfolio/Portfolio Jack.html">Jack</a>
+                        <a class="a_btn" id="sofie_btn" href="../Portfolio/Portfolio Sofie.html">Sofie</a>
+                        <a class="a_btn" id="stacey_btn" href="../Portfolio/Portfolio Stacey.html">Stacey</a>
+                    </div>   
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1> Cookies: </h1>
+	<h2 id="cookies"> 0</h2>
+	<img src="../img/cookie.png" onclick="ClickUp();" id="cookie" class="center" />
+    <p id="cpsDisplay"> You are getting: 0 per second</p> 
+    <p id="cpcDisplay"> You are getting: 0 per click</p>
+    <button onclick="resetData();" id="knopreset" >Reset your data</button> 
+    <button class="button" id="smallcpcBuy" onclick="cpcUp();" >+1 Cookies Per Click! 25 cookies. </button>
+    <button class="button" id="bigcpcBuy" onclick="bigcpcUp();" >+6 Cookies Per Click! 250 cookies. </button>
+    <button class="button" id="ClickerBuy" onclick="buyClicker();" >+1 Cookies Per Second! 50 cookies. </button>
+    <button class="button" id="BigClickerBuy" onclick="buyBigClicker();" >+5 Cookies Per Second! 300 cookies. </button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    <script src="Game.js"></script>
+    <footer>
+        <p id="footer_txt">Copyright blabla</p>
+    </footer>
+</body>
+</html>

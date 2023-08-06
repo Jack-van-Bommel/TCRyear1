@@ -1,0 +1,98 @@
+html {
+  font-size: 62.5%;
+  background-color: black;
+  color: white;
+}
+body {
+  font-family: "Goldman", cursive;
+}
+
+
+.title_screen {
+  text-align: center;
+  position: static;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-image: url("/p1-HTML-CSS/Week 3/first_year_tcr_exercise/img/ethical_hacker.jpg");
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  font-size: 25px;
+  padding-top: 15vh;
+}
+
+
+nav {
+  margin: 0;
+  display: flex;
+  size: 100%;
+  width: 100vw;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  margin: 0;
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  margin: 0;
+  width: 5vw;
+}
+
+article {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.tekst {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 1000px;
+  font-size: 12px;  
+  font-family: Verdana;
+  list-style-type: circle;
+}
+
+.tekst2 {
+  height: 100vh;
+  width: 100vw;
+  font-size: 12px;  
+  font-family: Verdana;
+}
+
+h4 {
+  font-size: 50px;
+}
+
+
+footer {
+  background-color: #00a8c7;
+  text-align: center;
+  height: 10vh;
+  font-size: 25px;
+}

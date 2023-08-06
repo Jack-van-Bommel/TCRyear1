@@ -1,0 +1,35 @@
+.container_vierkanten {
+    display: flex;
+    height: 200px;
+    width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#blauw_vierkant {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+#zwart_vierkant {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+#rood_vierkant {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#groen_vierkant {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}

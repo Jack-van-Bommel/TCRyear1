@@ -1,0 +1,106 @@
+/* Removes all margins and paddings to prevent bars around navbar */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    max-width: 100%;
+}
+
+/* Everything for the header and navbar */
+.navbar_container {
+    display: flex;
+    background-color: #57425d;
+    width: 100vw;
+    height: 10vh;
+}
+
+.navbar_list {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+#img_tcrlogo {
+    border: solid black 1px;
+    display: flex;
+    background-color: #ededed;
+    /*width: 15vw;*/
+    height: 9vh;
+    margin-top: 0.4vh;
+    margin-left: 1vh;
+}
+nav a {
+    background-color: #ededed;  
+    border: solid black 1px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 1vh 0 1vh 0;
+}
+#home_a {
+    padding: 1vh 101.775px 1vh 101.775px;
+}
+#uitleg_a {
+    padding: 1vh 43.525px 1vh 43.525px;
+}
+#favo_a {
+    padding: 1vh 41.43px 1vh 41.43px;
+}
+#dropdown_btn {
+    padding: 1vh 91.115px 1vh 91.115px;
+}
+
+
+/* Navbar hamburger menu */
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 5;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+}
+.dropdown_content a {
+    max-width: 250px;
+    padding: 0.8rem 98.25px 0.8rem 98.25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   background-color: #ededed;
+}
+.a_btn {
+    display: flex;
+}
+.dropdown:hover .dropdown_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+}
+.a_btn:hover {
+    background-color: #815d8b;
+    color: white;
+}
+
+
+
+/* Main */
+main {
+    min-height: 85vh;
+}
+
+/* Everything for the footer */
+footer {
+    width: 100vw;
+    height: 5vh;
+    background-color: #57425d;
+    display: flex;
+    align-items: center;
+}
+#footer_txt {
+    color: #ededed;
+    font-weight: bold;
+    width: 100vw;
+    text-align: center;
+}
+
